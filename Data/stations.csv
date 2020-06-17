@@ -1,0 +1,70 @@
+id,name,address,latitude,longitude,status
+15041,Hollywood,"5700 Hollywood Boulevard, Los Angeles, CA 90028",34.10136,-118.314043,Open - Retail
+14996,Santa Monica,"1819 Cloverfield Blvd., Santa Monica, CA 90404",34.025237,-118.469573,Open - Retail
+14972,Cal State LA,"5151 State University Dr, Los Angeles, CA 90032",34.065956,-118.165565,Open - Legacy Retail
+14999,Fairfax-LA,"7751 Beverly Blvd., Los Angeles, CA  90036",34.076438,-118.358684,Open - Retail
+15003,Lawndale,"15606 Inglewood Avenue, Lawndale, CA 90260",33.889393,-118.360961,Open - Retail
+15042,Playa Del Rey,"8126 Lincoln Boulevard, Los Angeles, CA 90045",33.963207,-118.421598,Open - Retail
+15040,Long Beach,"3401 Long Beach Blvd, Long Beach, CA 90807",33.81951,-118.189659,Open - Retail
+15005,San Juan Capistrano,"26572 Junipero Serra Road, San Juan Capistrano, CA 92675",33.519859,-117.666836,Open - Retail
+15006,West Sacramento,"1515 South River Road, West Sacramento, CA 95691",38.569408,-121.521431,Open - Retail
+15029,San Jose,"2101 North First Street, San Jose, CA 95131",37.373278,-121.918801,Open - Retail
+15688,Emeryville,"1172 45th St, Emeryville, CA 94608",37.833916,-122.282448,Open - Retail
+15004,Diamond Bar,"21865 Copley Dr, Diamond Bar, CA 91765",34.001754,-117.828631,Open - Retail
+15488,Citrus Heights,"6141 Greenback Lane, Citrus Heights, CA 95621",38.679614,-121.320767,Open - Retail
+15595,Torrance,"2051 W. 190th Street, Torrance, CA 90501",33.858572,-118.315341,Open - Retail
+15007,UC Irvine,"19172 Jamboree Rd, Irvine, CA 92612",33.6647,-117.854777,Open - Retail
+15022,Campbell,"2855 Winchester Boulevard, Campbell, CA 95008",37.271963,-121.954657,Open - Retail
+15026,Palo Alto,"3601 El Camino Real, Palo Alto, CA 94306",37.418905,-122.133158,Open - Retail
+15024,Mill Valley,"570 Redwood Highway, Mill Valley, CA 94941",37.889816,-122.516576,Open - Retail
+15483,Oakland - Grand Ave,"350 Grand Avenue, Oakland, CA 94610",37.809231,-122.255632,Open - Retail
+15021,Anaheim,"3731 E. La Palma, Anaheim, CA 92806",33.855878,-117.837718,Open - Retail
+15014,Woodland Hills,"5314 Topanga Canyon, Woodland Hills, CA 91364",34.166944,-118.606082,Open - Retail
+15477,San Francisco - Mission St,"3550 Mission Street, San Francisco, CA 94110",37.740423,-122.423762,Open - Retail
+15476,San Francisco - Third St,"551 Third Street, San Francisco, CA 94107",37.780551,-122.394462,Open - Retail
+15478,San Francisco - Harrison St,"1201 Harrison Street, San Francisco, CA 94103",37.773336,-122.408296,Open - Retail
+15010,Mountain View,"830 Leong Dr, Mountain View, CA 94043",37.405131,-122.067061,Open - Retail
+15486,Sacramento,"3510 Fair Oaks Boulevard, Sacramento, CA 95864",38.573849,-121.382608,Open - Retail
+15049,South Pasadena,"1200 Fair Oaks Avenue, South Pasadena, CA 91030",34.111889,-118.149837,Open - Retail
+15030,San Ramon,"4475 Norris Canyon Road, San Ramon, CA 94583",37.7726,-121.969083,Open - Retail
+15047,Del Mar,"3060 Carmel Valley Road, San Diego, CA 92130",32.933608,-117.242069,Open - Retail
+15048,Santa Barbara,"150 South La Cumbre Road, Santa Barbara, CA 93105",34.438345,-119.750753,Open - Retail
+15035,Harris Ranch,"24505 West Dorris Avenue, Coalinga, CA 93210",36.253164,-120.238534,Open - Retail
+15281,Thousand Oaks,"3102 Thousand Oaks Blvd., Thousand Oaks, CA 91362",34.168718,-118.835965,Open - Retail
+15015,LAX," 10400 Aviation Blvd, Los Angeles, CA  90045",33.941389,-118.377867,Open - Retail
+15033,Lake Tahoe-Truckee,"12105 Donner Pass Road, Truckee, CA 96161",39.324897,-120.223524,Open - Retail
+15039,Lake Forest,"20731 Lake Forest Drive, Lake Forest, CA 92630",33.661574,-117.668434,Open - Retail
+15023,Hayward,"391 West A Street, Hayward, CA 94541",37.666872,-122.106548,Open - Retail
+15037,La Canada Flintridge,"550 Foothill Boulevard, La Canada Flintridge, CA 91011",34.200055,-118.191354,Open - Retail
+15036,Costa Mesa,"2050 Harbor Boulevard, Costa Mesa, CA 92627",33.648745,-117.91855,Open - Retail
+15280,Fremont,"41700 Grimmer Boulevard, Fremont, CA 94538",37.522152,-121.968533,Open - Retail
+15031,Saratoga,"12600 Saratoga Avenue, Saratoga, CA 95070",37.284205,-121.999374,Open - Retail
+15032,South San Francisco,"248 South Airport Blvd., South San Francisco, CA 94080",37.64788,-122.40596,Open - Retail
+15011,Oakland - AC Transit (bus),"1100 Seminary Ave, Bus yard, Oakland, CA 94621",37.761153,-122.205124,
+15479,Sherman Oaks,"14478 Ventura Boulevard, Sherman Oaks, CA 91423",34.15047,-118.448356,Commissioning
+15034,Woodside,"17287 Skyline Boulevard, Woodside, CA 94062",37.386498,-122.264313,Commissioning
+15046,Riverside,"3044 St. Lawrence Street, Riverside, CA 92504",33.92382,-117.412024,Not Operational
+15484,Fountain Valley,"18480 Brookhurst Street, Fountain Valley, CA 92708",33.694484,-117.9538,Under Construction
+15472,Berkeley,"1250 University Avenue, Berkeley, CA 94702",37.869541,-122.287045,Commissioning
+15043,Ontario,"1850 Holt Boulevard, Ontario, CA 91761",34.063173,-117.611311,Not Operational
+15480,Sunnyvale,"1296 Sunnyvale Saratoga Road, Sunnyvale, CA 94087",37.352658,-122.031816,Under Construction
+15020,Chino,"12600 East End Ave., Chino, CA 91710",34.025358,-117.724246,Approval to Build
+15485,San Diego,"5494 Mission Center Road, San Diego, CA 92108",32.773989,-117.154493,Planning Approval
+15598,Burbank (upgrade),"145 W Verdugo Avenue, Burbank, CA 91510",34.174441,-118.310512,Commissioning
+15487,Campbell - East Hamilton Ave,"337 East Hamilton Avenue, Campbell, CA 95008",37.294617,-121.943869,Commissioning
+15630,Redwood City,"503 Whipple Avenue, Redwood City, CA 94063",37.494131,-122.236714,Planning Approval
+15847,Laguna Beach,"104 North Coast Highway, Laguna Beach, CA 92651",33.543933,-117.788016,Pre-Permit Application
+15631,Mission Hills,"15544 San Fernando Mission Boulevard, Mission Hills, CA 91345",34.271605,-118.473446,Under Construction
+15628,Studio City,"3780 Cahuenga Boulevard, Studio City, CA 91604",34.137032,-118.364929,Under Construction
+15002,Santa Clarita,"24551 Lyons Ave, Santa Clarita, CA 91321",34.378919,-118.566178,Permit in Process
+15846,Culver City,"11284 Venice Boulevard, Culver City, CA 90230",34.008347,-118.425003,Permit in Process
+15001,Rancho Palos Verdes,"28103 Hawthorne Blvd., Rancho Palos Verdes, CA 90275",33.779231,-118.391752,Planning Approval
+15863,Wilmington,"Wilmington, CA",33.78,-118.263,Under Construction
+14995,Newport Beach,"1600 Jamboree Blvd, Newport Beach, CA 92660",33.625325,-117.878799,Not Operational
+15848,San Jose - Bernal Road,"101 Bernal Road, San Jose, CA 95119",37.232499,-121.772354,Permit in Process
+15865,Ontario,"Ontario, CA",34.0658,-117.648,Under Construction
+15864,Long Beach - Port of Long Beach,"925 Harbor Plaza, Long Beach, CA 90801",33.755931,-118.202998,Under Construction
+15867,Santa Ana - OCTA Bus Yard,"4301 E MacArthur Blvd, Santa Ana, CA 92704",33.700099,-117.892153,
+15866,Emeryville - AC Transit Bus Yard,"1172 45th St, Emeryville, CA 94608",37.833915,-122.282447,
+14967,Thousand Palms - SunLine Transit (bus),"32505 Harry Oliver Trail, Thousand Palms, CA 92276",33.81325,-116.39442,
+15912,Concord,"605 Contra Costa Boulevard, Concord, CA 94523",37.975263,-122.064597,Permit in Process
