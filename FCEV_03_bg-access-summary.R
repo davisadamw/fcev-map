@@ -7,9 +7,9 @@ d_thresh <- 312/2*0.9*1608
 distances <- read_rds("Data/all_station_bg_dists.rds") %>% 
   filter(d_meters < d_thresh)
 
-# block group # of stations in range
+# block group # of stations in range ... note: only geoid with two stations has two stations in same place
 bg_access <- distances %>% 
-  with_groups(T_GEOID, summarize, stations = sum(stations))
+  with_groups(T_GEOID, summarize, stations = n())
 
 bg_locations <- read_rds("~/GIS DataBase/CA_land_only/area-land-area-water/out_dataset/ca_bgs_nowater.rds")
 
