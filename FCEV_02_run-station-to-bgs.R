@@ -5,6 +5,7 @@ library(cppRouting)
 stations_bg <- read_rds("Data/stations_with_bg.rds")
 
 bg_stations <- stations_bg %>% 
+  filter(status == "Open - Retail") %>% 
   count(nearest_bg)
 
 # load network
