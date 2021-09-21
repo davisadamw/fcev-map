@@ -68,9 +68,10 @@ bg_bad_matched <- bg_locations_bad %>%
 # add DAC info /// just grab the target tracts
 dac_criteria <- readxl::read_excel("Data/sb535dacsces32018update.xlsx",
                                    sheet = "SB535 list (2018 update)",
-                                   col_types = "text") %>% 
-  select(GEOID_tr   = `Census Tract`,
-         dac_status = 3)
+                                   col_types = "text",
+                                   na = c("", "NA")) %>% 
+  mutate(GEOID_tr = paste0("0", `Census Tract`)) %>% 
+  select(GEOID_tr, dac_status = 3)
 
 
 # all block groups
