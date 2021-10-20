@@ -16,16 +16,22 @@ bg_access <- distances %>%
               stas_20mi = sum(d_meters < 20 * 1608, na.rm = TRUE),
               stas_55mi = sum(d_meters < 55 * 1608, na.rm = TRUE),
               stations = sum(d_meters < d_thresh, na.rm = TRUE)) %>% 
-  mutate(bg_sta1d = case_when(stas_05mi >= 1 ~ "Nearest station within 5 miles",
-                              stas_10mi >= 1 ~ "Nearest station 5-10 miles away",
-                              stas_20mi >= 1 ~ "Nearest station 10-20 miles away",
-                              stas_55mi >= 1 ~ "Nearest station 20-55 miles away",
+  mutate(bg_sta1d = case_when(stas_05mi >= 1 ~ "At least one station within 5 miles",
+                              stas_10mi >= 1 ~ "At least one station 5-10 miles away",
+                              stas_20mi >= 1 ~ "At least one station 10-20 miles away",
+                              stas_55mi >= 1 ~ "At least one station 20-55 miles away",
                               TRUE ~ "No stations within 55 miles"),
-         bg_sta2d = case_when(stas_05mi >= 2 ~ "Second-nearest station within 5 miles",
-                              stas_10mi >= 2 ~ "Second-nearest station 5-10 miles away",
-                              stas_20mi >= 2 ~ "Second-nearest station 10-20 miles away",
-                              stas_55mi >= 2 ~ "Second-nearest station 20-55 miles away",
+         bg_sta2d = case_when(stas_05mi >= 2 ~ "At least two stations within 5 miles",
+                              stas_10mi >= 2 ~ "At least two stations within 10 miles",
+                              stas_20mi >= 2 ~ "At least two stations within 20 miles",
+                              stas_55mi >= 2 ~ "At least two stations within 55 miles",
                               stas_55mi >= 1 ~ "One station within 55 miles",
+                              TRUE ~ "No stations within 55 miles"),
+         bg_sta3d = case_when(stas_05mi >= 3 ~ "At least three stations within 5 miles",
+                              stas_10mi >= 3 ~ "At least three stations within 10 miles",
+                              stas_20mi >= 3 ~ "At least three stations within 20 miles",
+                              stas_55mi >= 3 ~ "At least three stations within 55 miles",
+                              stas_55mi >= 1 ~ "One or two stations within 55 miles",
                               TRUE ~ "No stations within 55 miles"))
 
 # now for the spatial part
@@ -84,9 +90,9 @@ bg_location_summary <- bg_locations %>%
 
 
 bg_location_summary %>%
-  select(GEOID, county, bg_sta1d, bg_sta2d,
+  select(GEOID, county, bg_sta1d, bg_sta2d, bg_sta3d,
          nearest_sta_miles, second_nearest_sta_miles, geometry) %>% 
-  write_sf("Data/Spatial/bg_totals_20210920.shp")
+  write_sf("Data/Spatial/bg_totals_20211019.shp")
 
 bg_location_summary %>% 
   select(-county) %>% 
