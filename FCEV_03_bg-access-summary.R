@@ -11,6 +11,7 @@ bg_access <- distances %>%
   with_groups(T_GEOID, summarize, 
               nearest_sta_miles = min(d_meters) / 1608,
               second_nearest_sta_miles = (sort(d_meters)[2]) / 1608,
+              third_nearest_sta_miles  = (sort(d_meters)[3]) / 1608,
               stas_05mi = sum(d_meters < 5 * 1608, na.rm = TRUE),
               stas_10mi = sum(d_meters < 10 * 1608, na.rm = TRUE),
               stas_20mi = sum(d_meters < 20 * 1608, na.rm = TRUE),
@@ -90,8 +91,7 @@ bg_location_summary <- bg_locations %>%
 
 
 bg_location_summary %>%
-  select(GEOID, county, bg_sta1d, bg_sta2d, bg_sta3d,
-         nearest_sta_miles, second_nearest_sta_miles, geometry) %>% 
+  select(GEOID, county, bg_sta1d, bg_sta2d, bg_sta3d, geometry) %>% 
   write_sf("Data/Spatial/bg_totals_20211019.shp")
 
 bg_location_summary %>% 
